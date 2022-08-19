@@ -1,0 +1,47 @@
+/* estilo aplicado nos elementos da seção body */
+body {
+    /* Configuração de fonte */
+    font-family: Helvetica;
+    /* alinhamento de texto centralizado */
+    text-align: center;
+    color: white;
+    background-color: #333;
+    /* Reset de margem e padding */
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos aplicados nos elementos da seção nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid #666;
+}
+
+/* Estilo aplicado na lista da seção nav */
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 12px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+ul li a:hover {
+    color: rgb(15, 89, 150);
+}
+
+footer {
+    padding: 20px;
+    border-top: 1px solid #666;
+    margin-top: 20px;
+}
