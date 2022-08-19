@@ -1,17 +1,19 @@
-/* estilo aplicado nos elementos da seção body */
+/* Estilo aplicado nos elementos da seção body */
 body {
-    /* Configuração de fonte */
+    /* configuração da fonte */
     font-family: Helvetica;
-    /* alinhamento de texto centralizado */
+    /* alinhamento do texto centralizado */
     text-align: center;
+    /* configurando a cor da fonte */
     color: white;
+    /* configurando a cor do fundo */
     background-color: #333;
     /* Reset de margem e padding */
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
-/* estilos aplicados nos elementos da seção nav */
+/* Estilos aplicados na seção nav */
 nav {
     display: flex;
     justify-content: space-between;
@@ -20,26 +22,42 @@ nav {
     border-bottom: 1px solid #666;
 }
 
-/* Estilo aplicado na lista da seção nav */
+/* Lista não ordenada dentro da seção nav */
 nav ul {
     display: flex;
     list-style: none;
+    
 }
 
+/* Itens da lista não ordenada */
 ul li {
     margin-right: 12px;
 }
 
+/* Tag <a> dentro do item da lista não ordenada */
 ul li a {
     color: #fff;
     text-decoration: none;
     transition: 0.5s;
 }
 
+/* O hover CSS é uma pseudo-classe da linguagem de estilos */
 ul li a:hover {
     color: rgb(15, 89, 150);
 }
 
+/* Estilo aplicado no elemento pela tag */ 
+h1 {
+    font-size: 32px;
+}
+
+/* Estilo aplicado no elemento pela tag */ 
+img {
+    border: 3px solid rgb(15, 194, 218);
+    height: 300px;
+}
+
+/* Seção footer */
 footer {
     padding: 20px;
     border-top: 1px solid #666;
