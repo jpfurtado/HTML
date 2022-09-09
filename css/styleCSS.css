@@ -1,0 +1,65 @@
+/* Geral */
+body {
+    padding: 20px;
+}
+
+/* Estilo para a tag parágrafos */
+p {
+    color: darkmagenta;
+    font-size: 30px;
+}
+
+/* Estilo para a classe de paragrafos numerados */
+.p-numerados {
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    background-color: yellowgreen;
+}
+
+#p1 {
+    background-color: black;
+    color: red;
+}
+
+h2 {
+    border-bottom: 1px solid red;
+}
+
+/* Todos elementos da página */
+* {
+    font-family: arial;
+}
+
+.decoration {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:visited {
+    color: rgb(241, 13, 13)
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+/* Fontes */
+.serifada {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sem-serifa {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monoespacada {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.caixa {
+    width: 150px;
+    height: 100px;
+    border: 10px solid blue;
+    padding: 100px;
+    margin: 10px;
+}
