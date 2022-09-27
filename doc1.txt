@@ -1,1 +1,3 @@
-Esse arquivo foi criado para exemplificar o funcionamento do git e github.com
+Esse arquivo foi criado para 
+exemplificar o funcionamento 
+do git e github.com
