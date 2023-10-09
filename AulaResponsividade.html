@@ -1,15 +1,101 @@
 <header>
-    <h1>Sketch of
-    The Analytical Engine
-    Invented by Charles Babbage </h1>
-    <h2>With notes upon the Memoir by the Translator Ada Augusta, Countess of Lovelace</h2>
+    <h1>Trabalhos correlatos </h1>
+    <h2>Notas de aula - Prof. João Paulo C. Furtado</h2>
     <link rel="stylesheet" href="css/styleResp.css">
 </header>
 <body>
 <article>
-    <h3>Note C</h3>
-    <p> Those who may desire to study the principles of the Jacquard-loom in the most effectual manner, viz. that of practical observation, have only to step into the Adelaide Gallery or the Polytechnic Institution. In each of these valuable repositories of scientific illustration, a weaver is constantly working at a Jacquard-loom, and is ready to give any information that may be desired as to the construction and modes of acting of his apparatus. The volume on the manufacture of silk, in Lardner's Cyclopædia, contains a chapter on the Jacquard-loom, which may also be consulted with advantage.</p>
-    <p>The mode of application of the cards, as hitherto used in the art of weaving, was not found, however, to be sufficiently powerful for all the simplifications which it was desirable to attain in such varied and complicated processes as those required in order to fulfil the purposes of an Analytical Engine. A method was devised of what was technically designated backing the cards in certain groups according to certain laws. The object of this extension is to secure the possibility of bringing any particular card or set of cards into use any number of times successively in the solution of one problem. Whether this power shall be taken advantage of or not, in each particular instance, will depend on the nature of the operations which the problem under consideration may require. The process is alluded to by M. Menabrea, and it is a very important simplification. It has been proposed to use it for the reciprocal benefit of that art, which, while it has itself no apparent connexion with the domains of abstract science, has yet proved so valuable to the latter, in suggesting the principles which, in their new and singular field of application, seem likely to place algebraical combinations not less completely within the province of mechanism, than are all those varied intricacies of which intersecting threads are susceptible. By the introduction of the system of backing into the Jacquard-loom itself, patterns which should possess symmetry, and follow regular laws of any extent, might be woven by means of comparatively few cards.</p>
-    <p>Those who understand the mechanism of this loom will perceive that the above improvement is easily effected in practice, by causing the prism over which the train of pattern-cards is suspended to revolve backwards instead of forwards, at pleasure, under the requisite circumstances; until, by so doing, any particular card, or set of cards, that has done duty once, and passed on in the ordinary regular succession, is brought back to the position it occupied just before it was used the preceding time. The prism then resumes its forward rotation, and thus brings the card or set of cards in question into play a second time. This process may obviously be repeated any number of times. </p>    
+    <h3>Lista de artigos relacionados ao assunto</h3>
+    <p> A grande quantidade de trabalhos publicados nos últimos anos indica preocupação
+        com as possíveis soluções dos vários aspectos relacionados ao aumento do desempenho do
+        ambiente da Web. Devido a esta grande quantidade, aqui estão comentados alguns dos
+        trabalhos mais relacionados à pesquisa proposta. Primeiramente, são apresentados alguns
+        estudos de caracterização da carga de trabalho de servidores web. Em seguida, estão
+        relacionados os trabalhos de otimização de desempenho. Estes foram agrupados de acordo
+        com o instrumento utilizado para a otimização, tais como: ajustes no sistema operacional,
+        mecanismo de balanceamento de carga, clustering, utilização de web caching e engenharia de
+        software. Ao final, foram selecionados os trabalhos que mais se assemelham ao objeto dessa
+        dissertação, onde salientamos as semelhanças e diferenças e explicamos as contribuições
+        dessa pesquisa.</p>
+    <p>Para atingir o objetivo de melhorar o desempenho de um sistema computacional é
+        necessário conhecê-lo profundamente, bem como a sua carga de trabalho. Existem vários
+        estudos nesse sentido como o artigo “Explaining World Wide Web Traffic Self-Similarity”
+        (CROVELLA; BESTAVROS, 1995) no qual os autores analisam vários traces e identificam
+        características comuns (invariantes) nas diversas cargas de trabalho. No artigo
+        “Characteristics of WWW Client-based Traces” (CUNHA; BESTAVROS, CROVELLA,
+        1995) os autores identificam padrões e tendências nas diversas cargas de trabalho analisadas e
+        mostram que a distribuição dos tamanhos dos documentos segue um padrão.</p>
+    <p>Além dos estudos sobre a carga de trabalho na web, existem outros que propõem
+        melhorar o desempenho de servidores web atuando sobre o sistema operacional como em
+        “Scalable kernel performance for Internet server under realistic loads” (BANGA; MOGUL,
+        1998), no qual os autores sugerem implementações mais eficientes de chamadas do sistema
+        para a situação específica de servidores web. No artigo “Providing Differentiated Levels of
+        Service in Web Content Hosting” (ALMEIDA, et al. 1998) os autores sugerem a utilização de
+        níveis diferentes de qualidade de serviço para o atendimento de requisições aos servidores web, além de apontar limitações relacionadas ao desempenho de servidores web nas
+        implementações dos sistemas operacionais atuais.</p>
+    <p>O artigo “Connection Scheduling in Web Servers” (CROVELLA; FRANGIOSO;
+        HARCHOL-BALTER, 1999) sugere uma política diferente da tradicional no atendimento das
+        conexões que chegam ao servidor web. Dessa forma o sistema operacional iria encaminhar
+        para o serviço http primeiramente as conexões menores e não por ordem de chegada. Os
+        autores mostraram que é possível obter uma melhora da ordem de quatro a cinco vezes no
+        tempo de resposta utilizando a política proposta (shortest-connection-first). No artigo “On the
+        Interaction Between na Operating System and Web Server” (YATES; ALMEIDA;
+        ALMEIDA, 1997) os autores mostram como algumas atividades desempenhadas pelo sistema
+        operacional, como abrir e fechar conexões TCP e gravar arquivos de log, influenciam o
+        desempenho do servidor web.</p>
+        <p>
+            O artigo “Connection Scheduling in Web Servers” (CROVELLA; FRANGIOSO;
+HARCHOL-BALTER, 1999) sugere uma política diferente da tradicional no atendimento das
+conexões que chegam ao servidor web. Dessa forma o sistema operacional iria encaminhar
+para o serviço http primeiramente as conexões menores e não por ordem de chegada. Os
+autores mostraram que é possível obter uma melhora da ordem de quatro a cinco vezes no
+tempo de resposta utilizando a política proposta (shortest-connection-first). No artigo “On the
+Interaction Between na Operating System and Web Server” (YATES; ALMEIDA;
+ALMEIDA, 1997) os autores mostram como algumas atividades desempenhadas pelo sistema
+operacional, como abrir e fechar conexões TCP e gravar arquivos de log, influenciam o
+desempenho do servidor web.
+No artigo “Measuring the Behavior of a World Wide Web Server” (ALMEIDA;
+ALMEIDA; YATES, 1996) os autores mostram que se um servidor web está sobrecarregado
+por requisições de clientes, 90% do tempo de resposta é gasto pelo kernel do sistema
+operacional gerenciando requisições http.
+Outros trabalhos propõem melhorias de desempenho nos sistemas de servidores web
+atuando nos mecanismos de balanceamento de carga como em “Efficient policies for
+carrying web traffic over flow-switched networks” (FELDMANN; REXFORD; CÁCERES,
+1998), “Distributed Packet Rewriting and its Application to Scalable Server Architectures”
+(BESTAVROS, et al., 1998) e “Load Balancing a Cluster of Web Servers using Distributed
+Packet Rewriting” (AVERSA; BESTAVROS, 2000).
+Já no artigo “Servidores Paralelos e Distribuídos de Comércio Eletrônico” os autores
+apresentam um mecanismo de distribuição de serviços e dados entre servidores de transação
+que aumenta de forma efetiva a escalabilidade dos servidores de comércio eletrônico.
+        </p> 
+        <p>
+            A distribuição da carga por vários servidores também tem sido muito discutida.
+Uma das soluções apresentadas em (LIMA, 2003) é o uso de servidores Web distribuídos.
+Essa abordagem distribui a carga de requisições HTTP entre vários computadores conectados
+atuando como um só com o objetivo de proporcionar alto desempenho: um cluster. Um
+servidor Web distribuído exporta um nome lógico único e o informa para o mundo externo.
+Do ponto de vista do cliente, que envia uma única requisição HTTP, o grupo de servidores é
+apenas um servidor que irá manipular o pedido HTTP da mesma maneira que qualquer outro
+servidor Web faz. A partir do recebimento do pedido, o cluster o dirige a um dos membros do
+grupo para o processamento. Cada um dos componentes do cluster possui uma réplica do conteúdo a ser oferecido por esse servidor Web. Esse cluster pode estar instalado fisicamente
+em um mesmo local ou distribuído geograficamente em diferentes pontos da internet.
+Um problema fundamental em sistemas distribuídos é a manutenção da consistência
+das réplicas. As cópias do conteúdo Web devem permanecer consistentes, para que então
+todos os servidores replicados possam coordenar suas leituras e escritas. Um dos aspectos a
+serem considerados nessa abordagem é a política de sincronização da atualização das réplicas
+dos dados no cluster Web. Quando da atualização das páginas de um dos servidores, os outros
+componentes do cluster devem refletir exatamente o mesmo conteúdo. A replicação de
+objetos em sistemas distribuídos, normalmente, é utilizada para torná-los mais confiáveis e
+seguros, pois o sistema pode sobreviver às falhas de uma ou mais cópias do componente
+replicado.
+Nos ambientes de cluster Web, o objetivo principal da replicação é aumentar o
+desempenho através do balanceamento de carga entre os componentes, proporcionando
+tolerância à falhas quando um dos servidores deixa de funcionar. Os componentes do cluster
+Web podem estar instalados em um local físico ou espalhados em locais estratégicos na
+Internet, mais próximos dos clientes, em um ambiente de rede WAN (Wide Area Network).
+Vários trabalhos (BARBOSA, 2002), (LOU; LU, 2002), (WANG, 1999) e
+(RODRIGUEZ; SPANNER; BIERSACK, 2001) propõem a utilização de servidores de
+webcaching para melhoria de desempenho no ambiente de servidores web.
+        </p>   
 </article>
 </body>
