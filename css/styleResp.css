@@ -1,0 +1,5 @@
+@media (min-width: 50em) {
+    article {
+      column-count: 2;
+    }
+  }
